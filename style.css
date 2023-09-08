@@ -1,4 +1,7 @@
-
+body{
+       background-color:#FFFFFF ;
+       color:#85144B ;
+}
 .profile {
     text-align: center;
     margin: 20px;
@@ -24,3 +27,38 @@
     text-decoration: none;
     color: #0073e6;
 }
+a:hover{
+       text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media (max-width: 768px) {
+       .profile img {
+           width: 100px;
+           height: 100px;
+       }
+   }
+   
+   @media (max-width: 480px) {
+       .profile img {
+           width: 80px;
+           height: 80px;
+       }
+   }
+   
